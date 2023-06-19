@@ -1,0 +1,28 @@
+{
+  "name": "@choshin524/components",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.js",
+  "es2015": "dist/esm/index.mjs",
+  "es2017": "dist/esm/index.mjs",
+  "types": "dist/types/components.d.ts",
+  "collection": "dist/collection/collection-manifest.json",
+  "collection:main": "dist/collection/index.js",
+  "unpkg": "dist/components/components.esm.js",
+  "files": [
+    "dist/",
+    "loader/"
+  ],
+  "scripts": {
+    "build": "stencil build --docs",
+    "generate": "stencil generate",
+    "start": "stencil build --watch --serve",
+    "test": "stencil test --spec"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@stencil/core": "^3.3.0-dev.1685496483.a311f36"
+  }
+}
